@@ -38,6 +38,7 @@
 		8122379229D1474900FA2276 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8122379129D1474900FA2276 /* ProfileHost.swift */; };
 		8122379429D147C500FA2276 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8122379329D147C500FA2276 /* ProfileSummary.swift */; };
 		8122379629D1499B00FA2276 /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8122379529D1499B00FA2276 /* HikeBadge.swift */; };
+		8122379829D150AE00FA2276 /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8122379729D150AE00FA2276 /* ProfileEditor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,7 @@
 		8122379129D1474900FA2276 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 		8122379329D147C500FA2276 /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		8122379529D1499B00FA2276 /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
+		8122379729D150AE00FA2276 /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,8 +128,8 @@
 		8122375E29CFB20000FA2276 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				8122379029D1473100FA2276 /* Profiles */,
 				8122374829CF935300FA2276 /* ContentView.swift */,
+				8122379029D1473100FA2276 /* Profiles */,
 				8122378329D00DEA00FA2276 /* Categories */,
 				8122377A29D0060C00FA2276 /* Hikes */,
 				8122377529D0026C00FA2276 /* Badges */,
@@ -216,6 +218,7 @@
 			children = (
 				8122379129D1474900FA2276 /* ProfileHost.swift */,
 				8122379329D147C500FA2276 /* ProfileSummary.swift */,
+				8122379729D150AE00FA2276 /* ProfileEditor.swift */,
 			);
 			path = Profiles;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				8122377929D004DC00FA2276 /* Hike.swift in Sources */,
 				8122377229CFFDB300FA2276 /* RotatedBadgeSymbol.swift in Sources */,
 				8122377029CFFBCF00FA2276 /* BadgeSymbol.swift in Sources */,
+				8122379829D150AE00FA2276 /* ProfileEditor.swift in Sources */,
 				8122376429CFBB3300FA2276 /* LandmarkList.swift in Sources */,
 				8122378229D0060C00FA2276 /* HikeView.swift in Sources */,
 				8122376629CFC15100FA2276 /* LandmarkDetail.swift in Sources */,
